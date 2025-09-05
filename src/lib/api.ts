@@ -43,12 +43,12 @@ export const getProducts = async (category?: string): Promise<Product[]> => {
 
 export const getCategories = async (): Promise<CategoryInfo[]> => {
   try {
-    const res = await fetch(`${DUMMY_JSON_URL}/products/categories`, {
-      next: { revalidate: 3600 },
-    });
+    const res = await fetch(`${DUMMY_JSON_URL}/products/categories`);
+
     if (!res.ok) {
       throw new Error("Failed to fetch categories");
     }
+    
     const allCategories: string[] = await res.json();
     return allCategories.map((slug) => ({
       slug,
