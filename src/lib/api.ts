@@ -1,6 +1,5 @@
 import { Product } from "./types";
 import { MAPPED_CATEGORIES } from "./types";
-import { cache } from "react";
 
 const DUMMY_JSON_URL = "https://dummyjson.com";
 
@@ -10,14 +9,13 @@ export interface CategoryInfo {
   url: string;
 }
 
-export const getProducts = cache(
-  async (category?: string): Promise<Product[]> => {
+export const getProducts = async (category?: string): Promise<Product[]> => {
     const url = category
       ? `${DUMMY_JSON_URL}/products/category/${category}`
       : `${DUMMY_JSON_URL}/products?limit=0`;
 
     try {
-      const res = await fetch(url, { next: { revalidate: 3600 } } as any);
+      const res = await fetch(url);
       if (!res.ok) {
         console.error(`Failed to fetch products from ${url}`);
         return [];
@@ -41,9 +39,9 @@ export const getProducts = cache(
       return [];
     }
   }
-);
 
-export const getCategories = cache(async (): Promise<CategoryInfo[]> => {
+
+export const getCategories = async (): Promise<CategoryInfo[]> => {
   try {
     const res = await fetch(`${DUMMY_JSON_URL}/products/categories`, {
       next: { revalidate: 3600 },
@@ -59,11 +57,11 @@ export const getCategories = cache(async (): Promise<CategoryInfo[]> => {
     }));
   } catch (error) {
     console.error("Error fetching categories:", error);
-    // Fallbacks in-case of API failure
+    // Fallbacks if API failure
     return Object.entries(MAPPED_CATEGORIES).map(([slug, name]) => ({
       slug,
       name,
       url: "",
     }));
   }
-});
+};

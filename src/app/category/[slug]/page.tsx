@@ -23,7 +23,7 @@ const formatCategoryName = (name: string) => {
 };
 
 const getApiCategoriesFromSlug = (slug: string): string[] => {
-  const slugMap: { [key: string]: string[] } = {
+  const slugMap: Record<string, string[]> = {
     clothing: [
       "mens-shirts",
       "mens-shoes",
