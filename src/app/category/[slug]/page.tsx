@@ -4,7 +4,7 @@ import { getProducts } from "@/lib/api";
 import { Shirt, Sparkles, ShoppingBasket, Sofa, Laptop2 } from "lucide-react";
 
 interface CategoryPageProps {
-  params:  { slug: string };
+  params:  Promise<{ slug: string }>;
 }
 
 // Revalidate this page every hour (ISR)
@@ -91,8 +91,8 @@ const getProductsWithTimeout = async (category: string): Promise<Product[]> => {
 };
 
 export default async function CategoryPage(props: CategoryPageProps) {
-  // const params = await props.params;
-  const { slug } = props.params;
+  const params = await props.params;
+  const { slug } = params;
 
   const categoryName = formatCategoryName(slug);
   const apiCategories = getApiCategoriesFromSlug(slug);
