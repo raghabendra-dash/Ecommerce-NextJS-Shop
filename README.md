@@ -18,7 +18,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 *   **Offline Support**: Stores cart and wishlist data in Redux state to maintain user actions, ensuring a smoother user experience even with intermittent network connectivity.
 *   **Light/Dark Mode**: Theme-toggling and persistence with ***next-theme*** across sessions for a polished user experience.
 
-### 💡 Features in Action:
+### 🎬 Features in Action:
 
 - **Add to Cart**:  
   ![Add to Cart](public/add-to-cart.gif)  
@@ -39,7 +39,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 - Product Data:  **DummyJSON API**  
 
 
-### 🌏State Management: 
+### 🌏 State Management: 
 
 *  **Redux Toolkit**: Modern Redux with simplified syntax to manage cart and wishlist states globally, making state updates predictable, easy to debug and scalable.
 
@@ -93,3 +93,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### 📜 License: 
 This project is licensed under the MIT License
+
+## Optimizations
+
+- **Optimistic UI**: Implemented for a smoother user experience.
+- **Performance Improvements**: Optimized API request handling and response times to efficiently manage 4000+ requests per month.
+- **Responsive Design**: Fully responsive UI ensuring seamless experience across all devices.
+
+## Contributions
+
+Feel free to fork this repository and submit pull requests. All contributions are welcome!
+
