@@ -3,12 +3,6 @@ import { Product } from "@/lib/types";
 import { getProducts } from "@/lib/api";
 import { Shirt, Sparkles, ShoppingBasket, Sofa, Laptop2 } from "lucide-react";
 
-interface CategoryPageProps {
-  params: {
-    slug: string;
-  };
-}
-
 export async function generateStaticParams() {
   return [
     { slug: "clothing" },
@@ -89,9 +83,9 @@ const getProductsWithTimeout = async (category: string): Promise<Product[]> => {
   return Promise.race([getProducts(category), timeout]);
 };
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
+export default async function CategoryPage({ params }: { params: { slug: string } }) {
   // const params = await props.params;
-  const { slug } = await params;
+  const { slug } = params;
 
   const categoryName = formatCategoryName(slug);
   const apiCategories = getApiCategoriesFromSlug(slug);
