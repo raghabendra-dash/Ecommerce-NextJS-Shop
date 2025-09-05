@@ -31,7 +31,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 
 ### Tech Stack:
 
-*   **Framework**: [Next.js](https://nextjs.org/) (App Router)
+*   **Framework**: [Next.js](https://nextjs.org/)
 *   **Language**: [TypeScript](https://www.typescriptlang.org/)
 *   **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [ShadCN UI](https://ui.shadcn.com/)
 *   **Theme Management**: [next-themes](https://github.com/pacocoursey/next-themes)
