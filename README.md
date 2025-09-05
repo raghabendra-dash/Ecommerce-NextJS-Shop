@@ -1,10 +1,11 @@
-## ShopCart: E-Commerce Platform
+## ShopCart: E-Commerce Web Platform
 
 ShopCart is a sleek, production-ready e-commerce frontend web app built with **Next.js**, **TypeScript**, **React-Redux** and **Redux Toolkit**. It features a clean, responsive design and a fully functional shopping cart and wishlist system, delivering a modern and seamless user experience.
-
+<br/>
+<br/>
 ### Hosted Project:
-
-Live Demo: [Click Here](https://your-live-demo-link.com)
+  > Live Demo: [Click Here ](https://ecommerce-shopping-app-lilac.vercel.app)
+<br/>
 
 ![ShopCart Homepage](https://storage.googleapis.com/studioprod-55291.appspot.com/6c6c5963-718c-4573-8951-6979e953835f/projects/cqjmp7i48i/github_readme_shopcart.png)
 
