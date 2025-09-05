@@ -6,7 +6,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 
 Live Demo: [Click Here](https://your-live-demo-link.com)
 
-![ShopCart Homepage](https://storage.googleapis.com/studioprod-55291.appspot.com/6c6c5963-718c-4573-8951-6979e953835f/projects/cqjmp7i48i/github_readme_shopcart.png)
+![ShopCart Homepage](home.png)
 
 ### Key Features:
 
@@ -20,10 +20,10 @@ Live Demo: [Click Here](https://your-live-demo-link.com)
 ### Features in Action:
 
 - **Add to Cart**:  
-  ![Add to Cart](public/add-to-cart.gif)  
+  ![Add to Cart](public/add-to-cart.png)  
 
 - **Add to Wishlist**:  
-  ![Wishlist](public/wishlist.gif)  
+  ![Wishlist](public/wishlist.png)  
 
 - **Light/Dark Mode Toggle**:  
   ![Theme Toggle](public/theme-toggle.gif)  
