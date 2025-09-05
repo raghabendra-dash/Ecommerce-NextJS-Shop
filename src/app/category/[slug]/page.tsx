@@ -3,6 +3,13 @@ import { Product } from "@/lib/types";
 import { getProducts } from "@/lib/api";
 import { Shirt, Sparkles, ShoppingBasket, Sofa, Laptop2 } from "lucide-react";
 
+interface CategoryPageProps {
+  params: { slug: string };
+}
+
+// Revalidate this page every hour (ISR)
+export const revalidate = 3600;
+
 export async function generateStaticParams() {
   return [
     { slug: "clothing" },
