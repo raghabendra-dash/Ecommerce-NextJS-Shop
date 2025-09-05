@@ -1,6 +1,6 @@
 ## ShopCart: E-Commerce Platform
 
-ShopCart is a sleek, production-ready e-commerce frontend built with **Next.js**, **TypeScript**, **React-Redux** and **Redux Toolkit**. It features a clean, responsive design and a fully functional shopping cart and wishlist system, delivering a modern and seamless user experience.
+ShopCart is a sleek, production-ready e-commerce frontend web app built with **Next.js**, **TypeScript**, **React-Redux** and **Redux Toolkit**. It features a clean, responsive design and a fully functional shopping cart and wishlist system, delivering a modern and seamless user experience.
 
 ### Hosted Project:
 
