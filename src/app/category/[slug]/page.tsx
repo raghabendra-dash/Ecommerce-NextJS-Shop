@@ -90,8 +90,8 @@ const getProductsWithTimeout = async (category: string): Promise<Product[]> => {
 };
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  // const params = await props.params;
-  const { slug } = await params;
+ // const params = await props.params;
+  const { slug } = params;
 
   const categoryName = formatCategoryName(slug);
   const apiCategories = getApiCategoriesFromSlug(slug);
