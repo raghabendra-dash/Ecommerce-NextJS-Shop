@@ -136,12 +136,12 @@ export default async function HomePage() {
 
       <section id="categories" className="py-20 md:py-40 bg-background">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-14">
             <h2 className="text-5xl md:text-4xl font-['Times_New_Roman'] font-extrabold tracking-normal">
               Shop by Category
             </h2>
             <p
-              className="mt-5 text-2xl font-medium text-muted-foreground tracking-wider"
+              className="mt-4 text-2xl font-medium text-muted-foreground tracking-wider"
               style={{ fontFamily: "Baskerville, serif" }}
             >
               Discover our wide range of products across different categories.
