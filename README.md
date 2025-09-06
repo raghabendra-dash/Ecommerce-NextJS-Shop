@@ -19,14 +19,18 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 
 ### 🎬 Features in Action:
 
-- **Add to Cart**:  
+- **Add to Cart**:
+
+  
   ![Add to Cart](public/add-to-cart.png)  
 
-- **Add to Wishlist**:  
+- **Add to Wishlist**:
+  
   ![Wishlist](public/wishlist.png)  
 
-- **Light/Dark Mode Toggle**:  
-  ![Theme Toggle](public/light-mode.png)  
+- **Light/Dark Mode Toggle**:
+  
+  ![Theme Toggle](public/theme.gif)  
 
 ### 💼 Tech Stack:
 
@@ -58,7 +62,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 - **[uuid](https://www.npmjs.com/package/uuid)** – Unique ID generation.  
 - **[next-themes](https://github.com/pacocoursey/next-themes)** – Dark/light theme support.
 
-### 🔎 User Role:
+### 👤 User Role:
 
    **The Redux implementation handles:**
 
