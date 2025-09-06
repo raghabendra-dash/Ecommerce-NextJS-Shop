@@ -30,7 +30,7 @@ ShopCart is a sleek, production-ready e-commerce frontend web app built with **N
 
 - **Light/Dark Mode Toggle**:
   
-  ![Theme Toggle](public/theme.gif)  
+  ![Theme Toggle](public/themeT.gif)  
 
 ### 💼 Tech Stack:
 
