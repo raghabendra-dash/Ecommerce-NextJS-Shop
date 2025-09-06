@@ -1,14 +1,14 @@
-## ShopCart: E-Commerce Platform
+## 🛍️ ShopCart: E-Commerce Platform
 
 ShopCart is a sleek, production-ready e-commerce frontend web app built with **Next.js**, **TypeScript**, **React-Redux** and **Redux Toolkit**. It features a clean, responsive design and a fully functional shopping cart and wishlist system, delivering a modern and seamless user experience.
 
-### Hosted Project:
+### 🌐 Hosted Website:
+> **Live Demo**: [Click Here](https://your-live-demo-link.com)
+<br/>
 
-Live Demo: [Click Here](https://your-live-demo-link.com)
+![ShopCart Homepage](public/home.png)
 
-![ShopCart Homepage](home.png)
-
-### Key Features:
+### ⚓ Key Features:
 
 *   **Modern Tech Stack**: Built with Next.js 15 (App Router), React 18, and TypeScript for a type-safe, performant, and scalable application.
 *   **Comprehensive E-commerce UI**: Includes a homepage with category highlights, category-specific product listing pages, a shopping cart, and a wishlist.
@@ -17,7 +17,7 @@ Live Demo: [Click Here](https://your-live-demo-link.com)
 *   **Offline Support**: Stores cart and wishlist data in Redux state to maintain user actions, ensuring a smoother user experience even with intermittent network connectivity.
 *   **Light/Dark Mode**: Theme-toggling and persistence with ***next-theme*** across sessions for a polished user experience.
 
-### Features in Action:
+### 🎬 Features in Action:
 
 - **Add to Cart**:  
   ![Add to Cart](public/add-to-cart.png)  
@@ -26,9 +26,9 @@ Live Demo: [Click Here](https://your-live-demo-link.com)
   ![Wishlist](public/wishlist.png)  
 
 - **Light/Dark Mode Toggle**:  
-  ![Theme Toggle](public/theme-toggle.gif)  
+  ![Theme Toggle](public/light-mode.png)  
 
-### Tech Stack:
+### 💼 Tech Stack:
 
 *   **Framework**: [Next.js](https://nextjs.org/) (App Router)
 *   **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -38,30 +38,46 @@ Live Demo: [Click Here](https://your-live-demo-link.com)
 *   **Product Data**: [DummyJSON API](https://dummyjson.com/)
 
 
-### State Management: 
+### 🌏 State Management: 
 
-*  **Redux Toolkit**: Modern Redux with simplified syntax to manage cart and wishlist states globally, making state updates predictable, easy to debug and scalable.
+*  **Redux Toolkit** - Modern Redux with simplified syntax to manage cart and wishlist states globally.
 
-*  **React Redux**: React bindings for Redux
+*  **React Redux** - React bindings for Redux.
 
 
-### UI Components & Libraries:
+### 🤖 UI Components & Libraries:
 
-**UI Components:**
-
+  🎯 **UI Components:**
 - **[Lucide React](https://lucide.dev/guide/packages/lucide-react)** – Icon library.  
 - **[Embla Carousel](https://www.embla-carousel.com/)** – Image/slider carousel.   
 - **[React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)** – Form handling with validation.  
 - **[React Day Picker](https://react-day-picker.js.org/)** – Date picker component.  
 
-**Utilities:**
- 
+ ⚙️ **Utilities:**
 - **[date-fns](https://date-fns.org/)** – Date manipulation.  
 - **[uuid](https://www.npmjs.com/package/uuid)** – Unique ID generation.  
 - **[next-themes](https://github.com/pacocoursey/next-themes)** – Dark/light theme support.
 
+### 🔎 User Role:
 
-### Getting Started:
+   **The Redux implementation handles:**
+
+- Adding/removing items from cart
+
+- Updating item quantities
+
+- Adding/removing items from wishlist
+
+- Checkout process and order management
+
+- Synchronizing state with Firebase Firestore
+
+- Managing theme preferences
+
+- Handling loading states and errors
+
+
+### 🚀 Getting Started:
 
 <!-- **1. Firebase Setup**
 
@@ -90,5 +106,5 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-### License: 
+### 📜 License: 
 This project is licensed under the MIT License
